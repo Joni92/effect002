@@ -1,0 +1,30 @@
+ 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 4000px;
+    background: #161616;
+}
+
+.circular-text {
+    position: fixed; 
+    color: rgba(255, 255, 255, 0);
+    font-size: 180px;
+    font-weight: bolder; 
+    transition: 0.5s ease-out;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+
+.arrow {
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+ion-icon {
+    font-size: 100px;
+    color: white;
+}
